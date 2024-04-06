@@ -1,21 +1,27 @@
-# Software Intern Test
+# FrontendAngular
 
-Welcome to the Software Intern Test! This project assesses your skills in creating a multi-level form with a percentage indication of form completion. Additionally, the form should support the uploading of documents, and the data will be stored in a database. The preferred stack for this test is PERN (PostgreSQL, Express.js, React.js, Node.js) or your preferred tech stack.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
 
-## Task Description
+## Development server
 
-Your task is to build a multi-level form with the following features:
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-1. **Multi-Level Form:** Create a form with at least two levels. For example, the first level might collect basic information (e.g., name, email), and the second level could gather more detailed information (e.g., address, phone number).
+## Code scaffolding
 
-2. **Percentage Indication:** Implement a dynamic percentage indicator that reflects the completion status of the form. The percentage should be updated accordingly as the user progresses through the form.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-3. **Document Upload:** Allow users to upload documents (e.g., PDFs, images) as part of the form. Ensure that the uploaded documents are associated with the user's form data.
+## Build
 
-4. **Database Integration (PERN Stack) or your preferred tech stack:** Utilize the PERN stack (PostgreSQL, Express.js, React.js, Node.js) to store and retrieve form data, including the uploaded documents.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Submission
+## Running unit tests
 
-Create a fork of this repository and submit your solution by creating a pull request. Ensure that your code is well-documented, and the README in your fork includes any additional setup instructions or explanations.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-Good luck, and happy coding!
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
